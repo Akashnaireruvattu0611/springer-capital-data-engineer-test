@@ -73,7 +73,7 @@ The final output report contains **46 rows**, as required.
 docker build -t springer-referral .
 
 ### Step 2: Run the container
-```bash
+```
 Windows PowerShell
 docker run --rm `
   -v "${PWD}\output:/app/output" `
