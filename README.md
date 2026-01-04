@@ -72,3 +72,40 @@ The final output report contains **46 rows**, as required.
 ```bash
 docker build -t springer-referral .
 
+### Step 2: Run the container
+```bash
+Windows PowerShell
+docker run --rm `
+  -v "${PWD}\output:/app/output" `
+  -v "${PWD}\profiling:/app/profiling" `
+  -v "${PWD}\docs:/app/docs" `
+  springer-referral
+Outputs Generated
+
+After execution, the following files are created:
+
+Data Profiling Summary
+
+profiling/data_profiling_summary.csv
+
+
+Final Referral Validation Report
+
+output/referral_validation_report.csv
+
+
+Data Dictionary
+
+docs/Data_Dictionary.xlsx
+
+Notes
+
+All timestamps are converted from UTC to local time using the provided timezone columns.
+
+String normalization (Initcap) is applied as required, except for club names.
+
+No credentials are stored in code or configuration files.
+
+Author
+
+Akash Nair
