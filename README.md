@@ -101,12 +101,13 @@ output/referral_validation_report.csv
 ```
 docs/Data_Dictionary.xlsx
 ```
+---
 ### Notes
-
+---
 - All timestamps are converted from UTC to local time using the provided timezone columns.
 - String normalization (Initcap) is applied as required, except for club names.
 - No credentials are stored in code or configuration files.
-
+---
 ### Author
-
+---
 Akash Nair Eruvattu
