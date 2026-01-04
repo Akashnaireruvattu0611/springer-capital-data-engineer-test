@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# Raw data (if sensitive)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
