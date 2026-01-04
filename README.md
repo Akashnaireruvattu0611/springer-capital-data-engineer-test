@@ -15,6 +15,7 @@ The solution includes:
 ---
 
 ## Project Structure
+```
 springer_takehome/
 │
 ├── src/
@@ -35,7 +36,7 @@ springer_takehome/
 ├── requirements.txt
 └── README.md
 
-
+```
 ---
 
 ## Data Profiling
